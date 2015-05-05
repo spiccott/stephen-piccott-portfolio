@@ -1,0 +1,165 @@
+body {
+  color: #222222;
+  font-size: 1em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  background-image: url('http://i59.tinypic.com/2nslwr9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6em 0;
+  border-top: solid 1em #E8C89A;
+}
+
+.masthead-content {
+  border: solid 2px rgba(0,0,0,0.25);
+  width: 20em;
+  height: 11em;
+  text-align: center;
+  margin: auto;
+}
+
+.masthead-intro {
+  color: #FFFFFF;
+  margin-bottom: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.masthead-heading {
+  color: #27455B;
+  margin-top: -0.2em;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 300;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0.01em 0.02em #EFCAA7;
+}
+
+.introduction-section,
+.location-section,
+.questions-section,
+.projects-section {
+  max-width: 38em;
+  margin: 2em auto 0 auto;
+  padding: 0 1em;
+}
+
+.social {
+  padding: 0;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p, {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2,
+.projects-section > h2 {
+  color: #BE9E70;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+.section > h1 {
+  margin-top: 2em;
+  color: #27455B;
+}
+
+.content-footer {
+  color: #FFFFFF;
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: #333333;
+}
+
+.content-footer a {
+  color: #BE9E70;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-footer .social > li {
+  padding: 1em;
+  border: 2px solid rgba(102,102,102,0.25);
+}
+
+.projects-section {
+  border-top: 1px solid #666;
+}
+
+.projects {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+
+.projects > li {
+  margin-top: 2em;
+  display:inline-block;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.projects > li > a {
+  text-decoration: none;
+  color: #27455B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.project-image {
+  width: 240px;
+}
+
+@media only screen and (max-width: 540px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+
+  .masthead-content {
+    width: 16em;
+    height: 9em;
+  }
+
+  .content-footer {
+    padding: 4em 1em;
+  }
+  .project-image {
+    width: 140px;
+}
+}
+
+@media only screen and (max-width: 540px) {
+  .projects > li > a {
+    font-size: 1.2em;
+  }
+}
