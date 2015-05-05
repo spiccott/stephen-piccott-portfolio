@@ -84,6 +84,10 @@ ul, ol {
   margin: 2em 0 1em 0;
 }
 
+.projects-section > h2 {
+  text-align: center;
+}
+
 .section > h1 {
   margin-top: 2em;
   color: #27455B;
